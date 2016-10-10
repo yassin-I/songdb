@@ -11,4 +11,10 @@ User.create(email: "ben@codaisseurbnb.com", password: "secret")
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+artist1 = Artist.create( { name: "Bob", album: sherrif, song: "jamin" } )
+artist2 = Artist.create( { name: "Bob", album: good, song: "jamin.jpg" } )
+artist3 = Artist.create( { name: "Bob", album: yeah, song: "jamaica.jpg" } )
 
+songs1 = Artist.create( { name: "Rasta", album: sherrif, song: "jamin" } )
+songs2 = Artist.create( { name: "Rob", album: good, song: "jamin.jpg" } )
+songs3 = Artist.create( { name: "BYob", album: yeah, song: "jamaica.jpg" } )
